@@ -1,0 +1,70 @@
+@media (max-width:720px) {
+    /*  .carousel-inner .carousel-caption {
+          display: none;
+      }
+    */
+    .carousel-indicators{
+        display:none;
+    }
+    .carousel-control{
+        opacity:1.0;
+    }
+    .da-dots{
+        display:none;
+    }
+    #searchtext{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+#myCarousel{
+    margin-top: 0px;
+}
+.footer .container{
+    padding-bottom:30px;
+}
+#da-slider .da-slide .labelbutton{
+    padding:3px;
+    font-size:15px;
+    background-color:#F3F3F3;
+    border-radius:3px;
+}
+#da-slider .da-slide .labelbutton a{
+    background-color:#F3F3F3;
+    color:#000;
+    cursor:pointer;
+    background-color:rgba(243,243,243,0.7);
+}
+
+
+#da-slider p{   
+    background-color:rgba(153,51,51,0.7);/* see rgb to hex transform */
+}
+
+.da-dots{
+    background-color: transparent;
+}
+.da-dots span{
+    background: #933;
+}
+.da-arrows span{
+    background:#933;
+}
+.carousel-caption .floting-image{
+    width:40%;
+}
+/* carousel customization*/
+.carousel-caption button {
+    background-color: #933;
+}
+.carousel-caption button {
+    border-color: #933;
+}
+.carousel-caption h3{
+    background-color: #933;
+}
+.carousel-caption span{
+    font-size:20px;
+}
+/* menu style color  the rest is in the menumobile.css*/

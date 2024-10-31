@@ -1,0 +1,89 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+#carousel{
+    margin-top: 10px;
+    max-width:848px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#myCarousel{
+    margin-top: 0px;
+}
+#carousel{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-control{
+    width: 0px;
+    opacity:0.9;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 20px;
+    float:right;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 20px;
+}
+.carousel-inner  .carousel-caption{
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    bottom:0;
+    float:right;
+    width:35%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-left: 45%;
+    margin-right: 2px;
+}
+.carousel-inner  .carousel-caption-top{
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin:auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    float:right;
+    width:50%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    bottom:50%;
+}
+.carousel-inner  .carousel-caption p{
+    padding-bottom: 10px;
+}
+.carousel-inner  .carousel-caption h3{
+    margin-top: 5px;
+}
+.carousel-wrapper .carousel-inner  .carousel-caption{
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin:auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    float:right;
+    width:50%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    bottom:50%;
+}
+.carousel-indicators {
+    margin-left:0% !important;
+}
+.carousel-indicators div{
+    width:10px;
+    float:left;
+    margin-right:5px !important;
+    height:10px;
+    background-color:#ddd;
+    cursor:pointer;
+}
